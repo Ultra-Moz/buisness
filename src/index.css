@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-Montserrat;
+}
+
+.contain {
+  @apply w-[90%] max-w-[1080px] mx-auto;
+}
+
+.btn-primary {
+  @apply h-10 bg-[#2A74A7] rounded-[4px] font-openSans font-bold leading-[112%] text-white;
+}
